@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food</title>
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+</head>
+
+<body>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <div class="container-fluid justify-content-center alig-items-center">
+    <section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <a class="navbar-brand" href="#">Rincón de dulzura</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Menú
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#recetas">Recetas</a></li>
+                <li><a class="dropdown-item" href="#footer">Acerca de</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div>
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active row justify-content-center">
+              <img src="assets/img/cake.jpg" class="d-block w-100" alt="Cake">
+            </div>
+            <div class="carousel-item row justify-content-center">
+              <img src="assets/img/dessert.jpg" class="d-block w-100" alt="Postre">
+            </div>
+            <div class="carousel-item row justify-content-center">
+              <img src="assets/img/cupcake-soap.jpg" class="d-block w-100" alt="Cupcakes">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+      <div class="col-md-12"><br><br></div>
+
+      <article>
+        <div class="row">
+          <div class="col-sm-4 mb-3 mb-sm-0">
+            <div class="card">
+              <img src="assets/img/cake.jpg" class="card-img-top" alt="imagen pastel">
+              <div class="card-body">
+                <h5 class="card-title">Pastel especial</h5>
+                <p class="card-text">Deleita tus sentidos con este pastel de chocolate</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="assets/img/dessert.jpg" class="card-img-top" alt="imagen postre del desierto">
+              <div class="card-body">
+                <h5 class="card-title">Postre Desierto</h5>
+                <p class="card-text">Deja que te transporte a lugares inimaginables</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card">
+              <img src="assets/img/cupcake-soap.jpg" class="card-img-top" alt="Imagen cupcakes">
+              <div class="card-body">
+                <h5 class="card-title">Cupcakes</h5>
+                <p class="card-text">Dulzura que no falla</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <div class="col-md-12"><br><br></div>
+
+      <article>
+        <a name="recetas">
+          <div class="row" style="width: 80% ; margin-left: 12%; margin-right: 12%;">
+            <div class="card text-white bg-dark mb-5" style="max-width: 35rem;">
+              <div class="card-header">Recetas</div>
+              <div class="card-body">
+                <h5 class="card-title">Cupcakes en casa</h5>
+                <p class="card-text">¿Te estás adentrando en el mundo de la repostería y quieres aprener a elaborar
+                  tus propios cupcakes? En RecetasGratis.net te lo ponemos fácil y te enseñamos a cocinarlos de una
+                  forma muy fácil, deliciosa y realmente atractiva. No te pierdas el paso a paso y aprende a realizar
+                  estos cupcakes o quequitos.</p>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-5" style="max-width: 35rem;">
+              <div class="card-header" name="recetas">Imagen</div>
+              <div class="card-body">
+                <h5 class="card-title">Imágen ilustrativa</h5>
+                <img src="assets/img/cupcake-soap.jpg" class="card-img-top" alt="...">
+              </div>
+            </div>
+          </div>
+        </a>
+      </article>
+      <br>
+
+      <div class="col-md-12">
+        <a name="contacto">
+          <form style="width: 80% ; margin-left: 12%; margin-right: 12%;">
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">Correo electrónico</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">Nunca compartiremos su correo electrónico con nadie más.</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="exampleCheck1">
+              <label class="form-check-label" for="exampleCheck1">Verificado</label>
+            </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+      </div>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+    integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+    crossorigin="anonymous"></script>
+  </section>
+
+  <div class="col-md-12"><br><br></div>
+
+  <footer class="bg-body-tertiary text-center text-lg-start">
+    <a name="footer">
+      <div class="text-center p-3" style="background-color: rgba(91, 83, 83, 0.2); color: rgb(183, 173, 193)">
+        Trabajo práctico © 2023 - Argentina
+      </div>
+    </a>
+  </footer>
+  </div>
+</body>
+
+</html>
