@@ -10,10 +10,12 @@
 
 <body>
   <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/script.js"></script>
   <div class="container-fluid justify-content-center alig-items-center">
     <section>
       <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <a class="navbar-brand" href="#">Rincón de dulzura</a>
+        <a class="navbar-brand" href="index.html">Rincón de dulzura</a>
+        <a href="tickets.html">Tickets</a>.
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -142,7 +144,7 @@
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Verificado</label>
             </div>
-            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="button" class="btn btn-primary" onclick="extraerDatos()">Enviar</button>
           </form>
       </div>
 
@@ -166,5 +168,4 @@
   </footer>
   </div>
 </body>
-
 </html>

@@ -1,0 +1,14 @@
+.abs-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  
+  .form {
+    width: 500px;
+  }
+
+  body{
+    background-color: rgba(91, 83, 83, 0.2);
+  }
